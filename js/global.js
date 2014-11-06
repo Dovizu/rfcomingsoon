@@ -17,9 +17,9 @@ $(function () {
      "use strict";
 
     // call background image plugin
-    $.supersized({
-        slides: [{ image: 'images/background.jpg' }]
-    });
+    // $.supersized({
+        // slides: [{ image: 'images/background.jpg' }]
+    // });
     
     // Show/hide page content on click
     $('.main-content').each(function () {
@@ -80,16 +80,18 @@ $(function () {
 
     // tab b click
     $('.tabs .b').on('click', function () {
-        $('#st-accordion').accordion({
-            oneOpenedItem: true
-        });
+        // $('#st-accordion').accordion({
+        //     oneOpenedItem: true
+        // });
+       $('#about-us-right-panel').css('height', 712)
        $('.container-full').addClass('tab-b-background');
        $('.site-logo').hide()
     });
 
     // tab c click
     $('.tabs .c, .show-tab-c').on('click', function () {
-         $('#google-map').css('height', $('.wrap').height());
+         // $('#google-map').css('height', $('.wrap').height());
+         $('#get-in-touch-right-panel').css('height', 712);
        $('.tab-a-content').hide();
         $('.tab-b-content').hide();
         $('.tab-c-content').fadeIn();

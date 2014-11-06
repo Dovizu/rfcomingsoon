@@ -36,6 +36,8 @@ body {
     z-index: -999;
     height: 100%; 
     width: 100%; 
+    /*background-image: url("images/tile.png");*/
+    /*background-repeat: repeat;*/
 }
 
 #supersized img{
@@ -278,7 +280,7 @@ section {
     width: 100%;
 }
 
-.tab-b-content .tab-b-panel-a, .tab-b-content .tab-b-panel-b {
+.tab-b-content .tab-b-panel-a   {
     height: 100%;
     padding-top: 120px;
     padding-bottom: 65px;
@@ -291,10 +293,12 @@ section {
     padding-left: 65px;
 }
 
-
 .tab-b-content .tab-b-panel-b {
-    padding-left: 106px;
-    padding-right: 65px;
+    height: 100%;
+}
+.tab-b-content .tab-b-panel-b {
+    /*padding-left: 106px;*/
+    /*padding-right: 65px;*/
     background: #f2f2f2;
 }
 
@@ -696,7 +700,7 @@ section {
 }
 
 .circleG{
-    background-color:#b57dcd;
+    background-color:#de5b3d;
     float:left;
     height:23px;
     margin-left:12px;
@@ -1058,4 +1062,12 @@ section {
 /* MD styles */
 @media (min-width: 992px) and (max-width: 1199px) {
   
+}
+
+#get-in-touch-right-panel {
+    background-image: url("../images/contact.jpg")
+}
+
+#about-us-right-panel {
+    background-image: url("../images/about-us.jpg");
 }

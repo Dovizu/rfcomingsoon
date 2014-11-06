@@ -83,7 +83,7 @@ $(function () {
         // $('#st-accordion').accordion({
         //     oneOpenedItem: true
         // });
-       $('#about-us-right-panel').css('height', 712)
+       $('#about-us-right-panel').css('height', $('.container-full').height())
        $('.container-full').addClass('tab-b-background');
        $('.site-logo').hide()
     });
@@ -91,7 +91,7 @@ $(function () {
     // tab c click
     $('.tabs .c, .show-tab-c').on('click', function () {
          // $('#google-map').css('height', $('.wrap').height());
-         $('#get-in-touch-right-panel').css('height', 712);
+         $('#get-in-touch-right-panel').css('height', $('.container-full').height());
        $('.tab-a-content').hide();
         $('.tab-b-content').hide();
         $('.tab-c-content').fadeIn();

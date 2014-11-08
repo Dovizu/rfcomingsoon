@@ -1,0 +1,20 @@
+  <html>
+  <head>
+    <title>test</title>
+
+  </head>
+  <body>
+
+  <script type="text/javascript" src="http://s3.amazonaws.com/cdn.hellofax.com/js/embedded.js"></script>
+  <script type="text/javascript">
+    HelloSign.init("2db9c0d84a6c096dfc747c3719f9b9cc");
+    HelloSign.open({
+      url: "https://www.hellosign.com/editor/embeddedSign?signature_id=08221b01ca944e2d7032281166e18e04&token=685cf06c029bebbf090b3bb6873ee001",     
+      allowCancel: true,
+      messageListener: function(eventData) {
+        alert("HelloSign event received");
+      }    
+    });
+  </script>
+  </body>
+  </html>
